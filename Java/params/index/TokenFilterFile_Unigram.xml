@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tokenFilters>
+    <tokenizer>standard</tokenizer>
+    <tokenFilter>
+        <name>stop</name>
+    </tokenFilter>
+    <tokenFilter>
+        <name>lowercase</name>
+    </tokenFilter>
+    <tokenFilter>
+        <name>porterstem</name>
+    </tokenFilter>
+
+</tokenFilters>
