@@ -35,8 +35,7 @@ import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.BytesRef;
 
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
@@ -326,56 +325,87 @@ public class StatisticsIndex {
         printLine(line);
     }
 
-
-private void  checkAnalyzer (String all , String indexType) throws Exception
-{
-    String  biTokenFilterFile = "params/index/TokenFilterFile_test.xml",
-            // TokenFilterFile_BigramReplacePattern TokenFilterFile_Bigram
-            uniTokenFilterFile = "params/index/TokenFilterFile_Unigram.xml" ,
-            combinedTokenFilterFile = "params/index/TokenFilterFile_Combinedgram.xml",
-            inputFilter = "";
-    TokenAnalyzerMaker tam = new TokenAnalyzerMaker();
-    Analyzer an;
-
-    TokenStream ts;
-    CharTermAttribute term;
-    int termsCount = 0;
-
-    System.out.println("Start Checking " + indexType);
-    System.out.println("input : '" + all + "'");
-    System.out.println("------------------");
-    switch (indexType)
+    private void  checkAnalyzer (String all , String indexType) throws Exception
     {
-        case "Unigram" :
-            inputFilter = uniTokenFilterFile;
-            break;
-        case "Bigram":
-            inputFilter = biTokenFilterFile;
-            break;
-        case "Combined":
-            inputFilter = combinedTokenFilterFile;
-            break;
-    } // End Switch
-    an = tam.createAnalyzer(inputFilter);
+        String  biTokenFilterFile = "params/TokenFilterFile_test.xml",
+                // TokenFilterFile_BigramReplacePattern TokenFilterFile_Bigram
+                uniTokenFilterFile = "params/index/TokenFilterFile_Unigram.xml" ,
+                combinedTokenFilterFile = "params/index/TokenFilterFile_Combinedgram.xml",
+                inputFilter = "";
+        TokenAnalyzerMaker tam = new TokenAnalyzerMaker();
+        Analyzer an;
 
-    ts =  an.tokenStream(fldName,all);
+        TokenStream ts;
+        CharTermAttribute term;
+        int termsCount = 0;
 
-    ts.reset();
+        System.out.println("Start Checking " + indexType);
+        System.out.println("input : '" + all + "'");
+        System.out.println("------------------");
+        switch (indexType)
+        {
+            case "Unigram" :
+                inputFilter = uniTokenFilterFile;
+                break;
+            case "Bigram":
+                inputFilter = biTokenFilterFile;
+                break;
+            case "Combined":
+                inputFilter = combinedTokenFilterFile;
+                break;
+        } // End Switch
+        an = tam.createAnalyzer(inputFilter);
 
-    while (ts.incrementToken())
-    {
-        term = ts.getAttribute(CharTermAttribute.class);
-        printLine(term.toString());
-        termsCount++;
+        ts =  an.tokenStream(fldName,all);
 
+        ts.reset();
 
+        while (ts.incrementToken())
+        {
+            term = ts.getAttribute(CharTermAttribute.class);
+            printLine(term.toString());
+            termsCount++;
+        }
 
+        printLine(indexType + " Index has " + termsCount +
+                " terms\n----------------------------------------");
+    } // End Function
+
+    private void analyzeFile() throws IOException {
+        // File Info
+        String path = "C:\\Users\\kkb19103\\Desktop\\My Files 07-08-2019\\BiasMeasurementExperiments\\Resources\\WAPO\\50.qry",
+                outpath = "C:\\Users\\kkb19103\\Desktop\\My Files 07-08-2019\\BiasMeasurementExperiments\\Resources\\WAPO\\analyzed50.qry",
+                line , qry , qryid, newqry, filter = "params/TokenFilterFile_test.xml";
+        String [] parts;
+        BufferedReader reader = new BufferedReader(new FileReader(path));
+        PrintWriter pr = new PrintWriter(outpath);
+        // Analyzer Info
+        TokenAnalyzerMaker tam = new TokenAnalyzerMaker();
+        Analyzer an;
+        TokenStream ts;
+        CharTermAttribute term;
+        an = tam.createAnalyzer(filter);
+
+        while ( (line = reader.readLine()) != null)
+        {
+            System.out.println(line);
+            parts = line.split(" ",2);
+            qryid = parts[0];
+            qry = parts[1];
+            ts =  an.tokenStream(fldName,qry);
+            ts.reset();
+            newqry = "";
+            while (ts.incrementToken())
+            {
+                term = ts.getAttribute(CharTermAttribute.class);
+                newqry +=  term.toString() + " ";
+            }
+            ts.close();
+//            System.out.println(String.format("New Line : %s %s" , qryid,newqry));
+            pr.write(String.format("%s %s\n" ,qryid,newqry));
+        }
+        pr.close();
     }
-
-    printLine(indexType + " Index has " + termsCount +
-            " terms\n----------------------------------------");
-} // End Function
-
     private void printDocCount ()
     {
         openReader();
@@ -512,9 +542,10 @@ private void  checkAnalyzer (String all , String indexType) throws Exception
         sts.maxdoc = 0;
         try {
 
-           String all = "me is is now the floor never expected";
+           String all = "Women in Parliaments";
           // sts.checkAnalyzer(all,"Unigram");
-            sts.checkAnalyzer(all,"Bigram");
+//            sts.checkAnalyzer(all,"Bigram");
+            sts.analyzeFile();
           //  removeStopWords(all);
            // sts.checkAnalyzer(all,"Combined");
           //  sts.countFiller(-1);

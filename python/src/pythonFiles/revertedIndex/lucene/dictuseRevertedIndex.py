@@ -1,7 +1,8 @@
-import src.pythonFiles.dedicatedProcess.XMLTopicsCreator as xml
-import src.classes.trec  as trec
-import src.classes.bash as sh
-import src.classes.general as gen
+
+import python.src.pythonFiles.dedicatedProcess.XMLTopicsCreator as xml
+import python.src.classes.trec  as trec
+import python.src.classes.bash as sh
+import python.src.classes.general as gen
 
 def getFile (fName):
     folder = r'C:\Users\kkb19103\Desktop\My Files 07-08-2019\LUCENE\anserini\revertedIndex\\'
@@ -167,7 +168,7 @@ def runExperiment(fbDocs,fbTerms , originalQryWeight):
 def main():
     terms = 5
     docs = 10
-    originalQryWeight = 0.4
+    originalQryWeight = 0.6
     outLine = ""
     # for docs in range(5,35,5):
     outLine += runExperiment(docs,terms,originalQryWeight)
