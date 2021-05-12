@@ -1,5 +1,5 @@
 import pandas as pd
-import src.classes.general as gen
+import classes.general as gen
 
 
 def getQryDict(path):

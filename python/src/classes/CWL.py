@@ -5,7 +5,7 @@ import io
 
 def executeBash(resFile,gainFile):
     # python3 ~/cwlEval/cwl-eval cwl/tests/qrel_file cwl/tests/result_file -m ~/cwlEval/MyMetrics_file
-    cmd = 'python3 ~/cwlEval/cwl-eval %s %s -m ~/cwlEval/MyMetrics_file' % (gainFile,resFile)
+    cmd = 'python3.9 ~/cwlEval/cwl-eval %s %s -m ~/cwlEval/MyMetrics_file' % (gainFile,resFile)
   #  bashCmd = 'bash -c \'%s\' ' % cmd
     bashCmd = 'bash -c \"%s\"' % cmd
     result = subprocess.getoutput(bashCmd)
@@ -20,7 +20,7 @@ def getMetricsValues (resFile,gainFile):
     df = df.groupby('Metric')['EU'].agg(['mean']).round(decimals=3)
     result = []
     for i in range(6):
-        result.append(df.iat[i,0])
+        result.append(str(df.iat[i,0]))
     # [Map,NDCG, P10,R4, R6, R8]
     return result
 

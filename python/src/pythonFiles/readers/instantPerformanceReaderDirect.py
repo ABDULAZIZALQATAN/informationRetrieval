@@ -7,9 +7,9 @@ Extract The results to regenerate
 '''
 
 import subprocess
-import src.classes.CWL as cwl
-import src.classes.trec as trec
-import src.classes.general as gen
+import python.src.classes.CWL as cwl
+import python.src.classes.trec as trec
+import python.src.classes.general as gen
 def createBash(corpus, exp, beta, terms):
     bashfolder = r'C:\Users\kkb19103\Desktop\My Files 07-08-2019\LUCENE\anserini'
     originalBash = bashfolder + '\perBash.sh'

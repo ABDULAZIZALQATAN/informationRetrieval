@@ -1,8 +1,8 @@
-import src.classes.trec as trec
-import src.classes.CWL as cwl
-import src.classes.clsRetrievabilityCalculator as ret
+import classes.trec as trecCls
+import classes.CWL as cwl
+import classes.clsRetrievabilityCalculator as ret
 import pandas as pd
-import src.classes.general as gen
+import classes.general as gen
 
 
 # *****************  AQUAINT Statistics ****************************************************
@@ -40,8 +40,9 @@ def cwl(resFile, gainFile):
 def trec(resFile, gainFile):
     # Get Trec Results given resfile and gainFile
     # map , bpref , P.10 , ndcg'
-    result = trec.getTrecData(resFile, gainFile)
-    result = trec.executeBash(resFile, gainFile)
+    result = trecCls.getTrecData(resFile, gainFile)
+
+    # result = trec.executeBash(resFile, gainFile)
     print (result)
 
 def retrievability(resFile):
@@ -49,21 +50,19 @@ def retrievability(resFile):
     b=0.5
     c=100
     for b in [0,0.5]:
-        result = ret.cslRetrievabilityCalculator.calculate(resFile,b,c,'')
+        result = ret.calculate(resFile,b,c,'WAPO','')
         result = str(result).replace(',','\t')
         print(b,result)
 # **************************************************************************************
 
 def main():
-    resFile = '~/anserini/revertedIndex/firstStage.res'
+    resFile = r'C:\Users\kkb19103\Desktop\My Files 07-08-2019\LUCENE\anserini\revertedIndex\BiasRes\REV-WA-PL2-c1-beta0.25-docs25-terms50.res'
+    resFile = gen.getLinuxPath(resFile)
     gainFile = gen.getGainFile('w')
-    newline = '\n-------------------------\n'
+    # newline = '\n-------------------------\n'
     # cwl(resFile,gainFile)
     # retrievability(resFile)
-    print('WAPO Standard Run PL2- C=1 - Max=1000',newline)
-    trec(resFile,gainFile)
-    resFile = '~/anserini/revertedIndex/FinalRun.res'
-    print('WAPO Reverted Index 100K Base - PL2- C=1 - Max=1000',newline)
-    trec(resFile,gainFile)
+    trec(resFile, gainFile)
+
 if __name__ == '__main__':
     main()

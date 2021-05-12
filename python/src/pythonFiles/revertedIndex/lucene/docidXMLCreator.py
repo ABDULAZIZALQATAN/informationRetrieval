@@ -1,5 +1,9 @@
 # General Variables
+import classes.general as gen
+
 folder = r'C:\Users\kkb19103\Desktop\My Files 07-08-2019\LUCENE\anserini\revertedIndex'
+outFoler = folder + '\XMLCollections\CORE17\XMLDfBigger10'
+# folder = '%anserini%'
 xmlTemplate = ""
 
 def getScoreDistribution(N):
@@ -45,7 +49,8 @@ def outputQry (qryid , docids):
     global xmlTemplate
     xmlText = xmlTemplate.replace('#qid', qryid).replace('#docids', docids)
     qryid = "{:06d}".format(int(qryid))
-    fileName = '%s\XML\XML%s.xml' % (folder, qryid)
+    fileName = '%s\XML%s.xml' % (outFoler, qryid)
+    # fileName = gen.getLinuxPath(fileName)
     f = open(fileName, 'w')
     f.write(xmlText)
     f.close()
@@ -86,11 +91,10 @@ def processResFile(resPath):
         parts = line.split()
         qryID = parts[0]
         docid = parts[2].replace('-','')
-        parts = None
         if (prevQryID == ''):
             prevQryID = qryID
         if (qryID == prevQryID):
-            docidList += docid + ' '
+            docidList += ' ' + docid
         else:
             processQry(prevQryID , docidList)
             docidList = docid
@@ -101,13 +105,21 @@ def processResFile(resPath):
 
 def readXMLTemplate ():
     global xmlTemplate
-    f = open(folder + '\XMLFormat.xml')
+    file = folder + '\XMLFormat.xml'
+    # file = gen.getLinuxPath(file)
+    f = open(file,'r')
     xmlTemplate = f.readlines()
     xmlTemplate = ''.join(xmlTemplate)
     f.close()
 
 def main():
-    scorePath =  folder + r'\BaseScore.res'
+    # ntpath.realpath = ntpath.abspath
+    # f = os.environ
+    # os.listdir(folder)
+    # if (os._exists(folder)):
+    #     print('Yes')
+    scorePath =  folder + r'\prior\CORE17\DFBigger10\CO-BaseScore.res'
+    # scorePath = gen.getLinuxPath(scorePath)
     readXMLTemplate()
     processResFile(scorePath)
 

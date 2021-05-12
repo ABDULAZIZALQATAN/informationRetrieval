@@ -256,6 +256,13 @@ def getAxisIndex(axisLabel):
     }
     return switcher.get(axisLabel)
 
+def plotBaseLine(x,y):
+    plt.plot(x, y,
+             marker='$B$',
+             markersize=10,
+             color='r'
+             )
+
 def drawBaseLine(xAxisIndex,yAxisIndex):
     criteria = {
         'qryExpansion':'Baseline'
@@ -475,11 +482,21 @@ def initializeGlobals(readSource, exNum ,outPath):
     GExNum = exNum
     # C:\Users\kkb19103\Desktop\My Files 07-08-2019\BiasMeasurementExperiments
     if (readSource == 'W'):
-        if (exNum == 1):
-            exFolder = '1st Experiment - Bigrams Influence'
-        else:
-            exFolder = '2nd Experiment - RM3'
-        GCsvInPath = (r'C:\Users\kkb19103\Desktop\My Files 07-08-2019\BiasMeasurementExperiments\%s\CSV') % exFolder
+        switcher = {
+            1:'1st Experiment - Bigrams Influence',
+            2:'2nd Experiment - RM3',
+            3:'3rd Experiment - Reverted Index'
+        }
+        exFolder = switcher.get(exNum)
+        GCsvInPath = r'C:\Users\kkb19103\Desktop\My Files 07-08-2019\BiasMeasurementExperiments\%s\CSV' % exFolder
+
+def getExFolder (exNum):
+    switcher = {
+        1: '1st Experiment - Bigrams Influence',
+        2: '2nd Experiment - RM3',
+        3: '3rd Experiment - Reverted Index'
+    }
+    return switcher.get(exNum)
 
 def getAll(corpus, model):
     if (corpus == 'All'):

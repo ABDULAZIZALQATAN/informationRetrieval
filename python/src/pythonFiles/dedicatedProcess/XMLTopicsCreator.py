@@ -26,10 +26,10 @@ def generateXMLTopics(sourceFile , destFile):
                   '<desc>\n\n</desc>\n<narr>\n\n</narr>\n</top>\n'
 
     en = 'utf-8'
-    # fSource = open(sourceFile,'r',encoding=en)
-    # fDest = open(destFile,'w',encoding=en)
-    fSource = open(sourceFile, 'r')
-    fDest = open(destFile, 'w')
+    fSource = open(sourceFile,'r',encoding=en)
+    fDest = open(destFile,'w',encoding=en)
+    # fSource = open(sourceFile, 'r')
+    # fDest = open(destFile, 'w')
     fSource.readline()
     for line in fSource:
         [qryid,qry] = line.replace('\n','').split(sep)
@@ -37,7 +37,7 @@ def generateXMLTopics(sourceFile , destFile):
         fDest.write(outLine)
     fSource.close()
     fDest.close()
-    print('Generating XML Queries is Done')
+    # print('Generating XML Queries is Done')
 
 if __name__ == '__main__':
     path = r'C:\Users\kkb19103\Desktop\My Files 07-08-2019\LUCENE\anserini\out'

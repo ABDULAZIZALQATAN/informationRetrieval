@@ -1,11 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bb5517e-49b9-4bb1-9f8c-59cb53a04393" name="Default Changelist" comment="" />
+    <list default="true" id="4bb5517e-49b9-4bb1-9f8c-59cb53a04393" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/python/src/DummySrc/pyserinitest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator/CORE17Iterator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator/CORE17Statistics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator/concatFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/extractLines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/extractRFields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/generateCSV.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/generateRetFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/measureRetrievalExposure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/plotRelevanceExposure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters/2nd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters/csvPlotterFairness.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/collectionParser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/InformationRetrieval.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/InformationRetrieval.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/DummySrc/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/DummySrc/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/classes/CWL.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/classes/CWL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/classes/bash.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/classes/bash.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/classes/clsRetrievabilityCalculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/classes/clsRetrievabilityCalculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/classes/general.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/classes/general.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/classes/trec.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/classes/trec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/WAPOScripts/WAPOIterator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/WAPOScripts/processWAPOKicker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/XMLTopicsCreator.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/XMLTopicsCreator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/compare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/renameExperiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/renameExperiments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/plotters/csvPlotterGeneral.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/plotters/csvPlotterGeneral.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/plotters/csvPlotterMultipleIndexes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/plotters/csvPlotterRM3BaseIteration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/plotters/csvPlotterRM3FirstStage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/plotters/csvPlotterRM3SecondStage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/readers/PerformanceReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/readers/PerformanceReader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/readers/csvExtractTopMAPValues.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/readers/instantPerformanceReaderDirect.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/readers/instantPerformanceReaderDirect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/readers/readSingleResFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/readers/readSingleResFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/checkers/resChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/checkers/resChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/dictuseRevertedIndex.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/dictuseRevertedIndex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/docidXMLCreator.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/docidXMLCreator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/simpleTasks/simpleTasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/simpleTasks/simpleTasks.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="InformationRetrieval" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -17,6 +75,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="12632a49-b99f-4b35-9039-5eadcffbe1df" />
   <component name="ProjectId" id="1oAaDnaC5KYe5UgbxB8PaQcqPzz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,10 +85,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/dictuseRevertedIndex.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -39,8 +98,22 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dictuseRevertedIndex">
-    <configuration name="compare" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\paper2\plotters" />
+      <recent name="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\paper2\AdditionalAnalysis" />
+      <recent name="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\revertedIndex\lucene" />
+      <recent name="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\readers" />
+      <recent name="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\plotters" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\paper2\AdditionalAnalysis" />
+      <recent name="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\paper2" />
+      <recent name="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\dedicatedProcess" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.extractRFields">
+    <configuration name="concatFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InformationRetrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,12 +121,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/compare.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator/concatFiles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -62,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dictuseRevertedIndex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="extractRFields" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InformationRetrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,12 +143,78 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/pythonFiles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/dictuseRevertedIndex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/extractRFields.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generateCSV" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InformationRetrieval" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\kkb19103\Desktop\My Files 07-08-2019\My Work\InformationRetrieval\python\src\pythonFiles\paper2\AdditionalAnalysis\generateCSV.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="measureRetrievalExposure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InformationRetrieval" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/measureRetrievalExposure.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InformationRetrieval" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/src/DummySrc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/src/DummySrc/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,13 +224,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.dictuseRevertedIndex" />
-      <item itemvalue="Python.compare" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.generateCSV" />
+      <item itemvalue="Python.measureRetrievalExposure" />
+      <item itemvalue="Python.extractRFields" />
+      <item itemvalue="Python.concatFiles" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dictuseRevertedIndex" />
-        <item itemvalue="Python.compare" />
+        <item itemvalue="Python.extractRFields" />
+        <item itemvalue="Python.concatFiles" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.measureRetrievalExposure" />
+        <item itemvalue="Python.generateCSV" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +250,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612731731790</updated>
-      <workItem from="1612731733111" duration="8291000" />
+      <workItem from="1612731733111" duration="51515000" />
+      <workItem from="1613052134837" duration="14237000" />
+      <workItem from="1613295911761" duration="1578000" />
+      <workItem from="1613345155897" duration="62011000" />
+      <workItem from="1613659757440" duration="1757000" />
+      <workItem from="1613663425716" duration="6261000" />
+      <workItem from="1613764705236" duration="621000" />
+      <workItem from="1613771882192" duration="19299000" />
+      <workItem from="1613901930448" duration="15781000" />
+      <workItem from="1614465458182" duration="10526000" />
+      <workItem from="1614995524592" duration="13830000" />
+      <workItem from="1615089968937" duration="5938000" />
+      <workItem from="1615329147275" duration="40648000" />
+      <workItem from="1615594008058" duration="1423000" />
+      <workItem from="1615596991965" duration="9621000" />
+      <workItem from="1615658225316" duration="1509000" />
+      <workItem from="1615665714791" duration="33249000" />
+      <workItem from="1615942147399" duration="39059000" />
+      <workItem from="1616643597848" duration="15157000" />
+      <workItem from="1616774441367" duration="15701000" />
+      <workItem from="1617176955914" duration="5999000" />
+      <workItem from="1617657515802" duration="10421000" />
+      <workItem from="1617805003261" duration="26185000" />
+      <workItem from="1618331327333" duration="11802000" />
+      <workItem from="1618761499502" duration="33217000" />
+      <workItem from="1618931709246" duration="2843000" />
+      <workItem from="1618942219610" duration="12434000" />
+      <workItem from="1619017529250" duration="131651000" />
+      <workItem from="1620272805236" duration="103120000" />
     </task>
     <servers />
   </component>
@@ -113,53 +286,569 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612738464783">
+    <state x="233" y="0" key="#Notifications" timestamp="1615028556712">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.639@0.0.1280.639" timestamp="1612738464783" />
-    <state x="421" y="78" key="FileChooserDialogImpl" timestamp="1612738461678">
+    <state x="233" y="0" key="#Notifications/0.0.1280.639@0.0.1280.639" timestamp="1615028556712" />
+    <state x="2" y="92" width="1089" height="533" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620435658347">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state x="421" y="78" key="FileChooserDialogImpl/0.0.1280.639@0.0.1280.639" timestamp="1612738461678" />
-    <state width="1237" height="132" key="GridCell.Tab.0.bottom" timestamp="1612786071836">
+    <state x="2" y="92" width="1089" height="533" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.639@0.0.1280.639" timestamp="1620435658347" />
+    <state x="368" y="0" key="#dictuseRevertedIndex" timestamp="1617694745998">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.0.bottom/0.0.1280.639@0.0.1280.639" timestamp="1612786071836" />
-    <state width="1237" height="132" key="GridCell.Tab.0.center" timestamp="1612786071836">
+    <state x="368" y="0" key="#dictuseRevertedIndex/0.0.1280.639@0.0.1280.639" timestamp="1617694745998" />
+    <state x="0" y="73" key="#xdebugger.XInspectDialog" timestamp="1615420595307">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.0.center/0.0.1280.639@0.0.1280.639" timestamp="1612786071836" />
-    <state width="1237" height="132" key="GridCell.Tab.0.left" timestamp="1612786071836">
+    <state x="0" y="73" key="#xdebugger.XInspectDialog/0.0.1280.639@0.0.1280.639" timestamp="1615420595307" />
+    <state x="109" y="29" width="1025" height="581" key="#xdebugger.evaluate" timestamp="1620307296460">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.0.left/0.0.1280.639@0.0.1280.639" timestamp="1612786071836" />
-    <state width="1237" height="132" key="GridCell.Tab.0.right" timestamp="1612786071836">
+    <state x="109" y="29" width="1025" height="581" key="#xdebugger.evaluate/0.0.1280.639@0.0.1280.639" timestamp="1620307296460" />
+    <state width="1278" height="206" key="DebuggerActiveHint" timestamp="1620639821267">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.0.right/0.0.1280.639@0.0.1280.639" timestamp="1612786071836" />
-    <state width="1237" height="187" key="GridCell.Tab.1.bottom" timestamp="1612785247875">
+    <state width="1278" height="206" key="DebuggerActiveHint/0.0.1280.639@0.0.1280.639" timestamp="1620639821267" />
+    <state x="183" y="101" width="647" height="483" key="FileChooserDialogImpl" timestamp="1620082978965">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="187" key="GridCell.Tab.1.bottom/0.0.1280.639@0.0.1280.639" timestamp="1612785247875" />
-    <state width="1237" height="187" key="GridCell.Tab.1.center" timestamp="1612785247875">
+    <state x="183" y="101" width="647" height="483" key="FileChooserDialogImpl/0.0.1280.639@0.0.1280.639" timestamp="1620082978965" />
+    <state width="1237" height="189" key="GridCell.Tab.0.bottom" timestamp="1620805000636">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="187" key="GridCell.Tab.1.center/0.0.1280.639@0.0.1280.639" timestamp="1612785247875" />
-    <state width="1237" height="187" key="GridCell.Tab.1.left" timestamp="1612785247875">
+    <state width="1237" height="189" key="GridCell.Tab.0.bottom/0.0.1280.639@0.0.1280.639" timestamp="1620805000636" />
+    <state width="1237" height="189" key="GridCell.Tab.0.center" timestamp="1620805000636">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="187" key="GridCell.Tab.1.left/0.0.1280.639@0.0.1280.639" timestamp="1612785247875" />
-    <state width="1237" height="187" key="GridCell.Tab.1.right" timestamp="1612785247875">
+    <state width="1237" height="189" key="GridCell.Tab.0.center/0.0.1280.639@0.0.1280.639" timestamp="1620805000636" />
+    <state width="1237" height="189" key="GridCell.Tab.0.left" timestamp="1620805000636">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state width="1237" height="187" key="GridCell.Tab.1.right/0.0.1280.639@0.0.1280.639" timestamp="1612785247875" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1612738251496">
+    <state width="1237" height="189" key="GridCell.Tab.0.left/0.0.1280.639@0.0.1280.639" timestamp="1620805000636" />
+    <state width="1237" height="189" key="GridCell.Tab.0.right" timestamp="1620805000636">
       <screen x="0" y="0" width="1280" height="639" />
     </state>
-    <state x="144" y="0" key="SettingsEditor/0.0.1280.639@0.0.1280.639" timestamp="1612738251496" />
+    <state width="1237" height="189" key="GridCell.Tab.0.right/0.0.1280.639@0.0.1280.639" timestamp="1620805000636" />
+    <state width="1237" height="153" key="GridCell.Tab.1.bottom" timestamp="1620803149501">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state width="1237" height="153" key="GridCell.Tab.1.bottom/0.0.1280.639@0.0.1280.639" timestamp="1620803149501" />
+    <state width="1237" height="153" key="GridCell.Tab.1.center" timestamp="1620803149501">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state width="1237" height="153" key="GridCell.Tab.1.center/0.0.1280.639@0.0.1280.639" timestamp="1620803149501" />
+    <state width="1237" height="153" key="GridCell.Tab.1.left" timestamp="1620803149501">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state width="1237" height="153" key="GridCell.Tab.1.left/0.0.1280.639@0.0.1280.639" timestamp="1620803149501" />
+    <state width="1237" height="153" key="GridCell.Tab.1.right" timestamp="1620803149501">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state width="1237" height="153" key="GridCell.Tab.1.right/0.0.1280.639@0.0.1280.639" timestamp="1620803149501" />
+    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.bottom" timestamp="1620803149502">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.bottom/0.0.1280.639@0.0.1280.639" timestamp="1620803149502" />
+    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.center" timestamp="1620803149501">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.center/0.0.1280.639@0.0.1280.639" timestamp="1620803149501" />
+    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.left" timestamp="1620803149501">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.left/0.0.1280.639@0.0.1280.639" timestamp="1620803149501" />
+    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.right" timestamp="1620803149501">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="1237" height="153" key="GridCell.Tab.2.right/0.0.1280.639@0.0.1280.639" timestamp="1620803149501" />
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.3.bottom" timestamp="1619144062439">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.3.bottom/0.0.1280.639@0.0.1280.639" timestamp="1619144062439" />
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.3.center" timestamp="1619144062438">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.3.center/0.0.1280.639@0.0.1280.639" timestamp="1619144062438" />
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.3.left" timestamp="1619144062438">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.3.left/0.0.1280.639@0.0.1280.639" timestamp="1619144062438" />
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.3.right" timestamp="1619144062439">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.3.right/0.0.1280.639@0.0.1280.639" timestamp="1619144062439" />
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.4.bottom" timestamp="1619144062431">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.4.bottom/0.0.1280.639@0.0.1280.639" timestamp="1619144062431" />
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.4.center" timestamp="1619144062430">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.4.center/0.0.1280.639@0.0.1280.639" timestamp="1619144062430" />
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.4.left" timestamp="1619144062430">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.4.left/0.0.1280.639@0.0.1280.639" timestamp="1619144062430" />
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.4.right" timestamp="1619144062430">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="268" height="171" key="GridCell.Tab.4.right/0.0.1280.639@0.0.1280.639" timestamp="1619144062430" />
+    <state x="470" y="56" key="PyMappingSimpleResolveDialog" timestamp="1615002607945">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="470" y="56" key="PyMappingSimpleResolveDialog/0.0.1280.639@0.0.1280.639" timestamp="1615002607945" />
+    <state x="138" y="0" key="SettingsEditor" timestamp="1620370514756">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="138" y="0" key="SettingsEditor/0.0.1280.639@0.0.1280.639" timestamp="1620370514756" />
+    <state width="864" height="372" key="XDebugger.FullValuePopup" timestamp="1620438330480">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state width="864" height="372" key="XDebugger.FullValuePopup/0.0.1280.639@0.0.1280.639" timestamp="1620438330480" />
+    <state x="349" y="148" key="com.intellij.ide.util.TipDialog" timestamp="1620272805584">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="349" y="148" key="com.intellij.ide.util.TipDialog/0.0.1280.639@0.0.1280.639" timestamp="1620272805584" />
+    <state x="193" y="53" width="958" height="532" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1615003043759">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="193" y="53" width="958" height="532" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/0.0.1280.639@0.0.1280.639" timestamp="1615003043759" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-1" timestamp="1619017793314">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-1/0.0.1280.639@0.0.1280.639" timestamp="1619017793314" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-10" timestamp="1619020560866">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-10/0.0.1280.639@0.0.1280.639" timestamp="1619020560866" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-11" timestamp="1619020560866">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-11/0.0.1280.639@0.0.1280.639" timestamp="1619020560866" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-12" timestamp="1619020560866">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-12/0.0.1280.639@0.0.1280.639" timestamp="1619020560866" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-13" timestamp="1619020560866">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-13/0.0.1280.639@0.0.1280.639" timestamp="1619020560866" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-14" timestamp="1619023786365">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-14/0.0.1280.639@0.0.1280.639" timestamp="1619023786365" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-15" timestamp="1619023786365">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-15/0.0.1280.639@0.0.1280.639" timestamp="1619023786365" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-16" timestamp="1619027172152">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-16/0.0.1280.639@0.0.1280.639" timestamp="1619027172152" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-17" timestamp="1619027643792">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-17/0.0.1280.639@0.0.1280.639" timestamp="1619027643792" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-18" timestamp="1619027643792">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-18/0.0.1280.639@0.0.1280.639" timestamp="1619027643792" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-19" timestamp="1619029542502">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-19/0.0.1280.639@0.0.1280.639" timestamp="1619029542502" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-2" timestamp="1619017793314">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-2/0.0.1280.639@0.0.1280.639" timestamp="1619017793314" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-20" timestamp="1619029542502">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-20/0.0.1280.639@0.0.1280.639" timestamp="1619029542502" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-21" timestamp="1619029542502">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-21/0.0.1280.639@0.0.1280.639" timestamp="1619029542502" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-22" timestamp="1619054528486">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-22/0.0.1280.639@0.0.1280.639" timestamp="1619054528486" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-23" timestamp="1619054707894">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-23/0.0.1280.639@0.0.1280.639" timestamp="1619054707894" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-24" timestamp="1619058577319">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-24/0.0.1280.639@0.0.1280.639" timestamp="1619058577319" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-25" timestamp="1619058577319">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-25/0.0.1280.639@0.0.1280.639" timestamp="1619058577319" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-26" timestamp="1619058577319">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-26/0.0.1280.639@0.0.1280.639" timestamp="1619058577319" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-27" timestamp="1619059247733">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-27/0.0.1280.639@0.0.1280.639" timestamp="1619059247733" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-28" timestamp="1619059370576">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-28/0.0.1280.639@0.0.1280.639" timestamp="1619059370576" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-29" timestamp="1619059370576">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-29/0.0.1280.639@0.0.1280.639" timestamp="1619059370576" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-3" timestamp="1619017959357">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-3/0.0.1280.639@0.0.1280.639" timestamp="1619017959357" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-30" timestamp="1619059733826">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-30/0.0.1280.639@0.0.1280.639" timestamp="1619059733826" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-31" timestamp="1619106916205">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-31/0.0.1280.639@0.0.1280.639" timestamp="1619106916205" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-32" timestamp="1619106916205">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-32/0.0.1280.639@0.0.1280.639" timestamp="1619106916205" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-33" timestamp="1619106916205">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-33/0.0.1280.639@0.0.1280.639" timestamp="1619106916205" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-34" timestamp="1619107486468">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-34/0.0.1280.639@0.0.1280.639" timestamp="1619107486468" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-35" timestamp="1619107486468">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-35/0.0.1280.639@0.0.1280.639" timestamp="1619107486468" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-36" timestamp="1619107486469">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-36/0.0.1280.639@0.0.1280.639" timestamp="1619107486469" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-37" timestamp="1619107486469">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-37/0.0.1280.639@0.0.1280.639" timestamp="1619107486469" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-38" timestamp="1619107651442">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-38/0.0.1280.639@0.0.1280.639" timestamp="1619107651442" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-39" timestamp="1619107941967">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-39/0.0.1280.639@0.0.1280.639" timestamp="1619107941967" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-4" timestamp="1619018183836">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-4/0.0.1280.639@0.0.1280.639" timestamp="1619018183836" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-40" timestamp="1619107941968">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-40/0.0.1280.639@0.0.1280.639" timestamp="1619107941968" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-41" timestamp="1619107941968">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-41/0.0.1280.639@0.0.1280.639" timestamp="1619107941968" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-42" timestamp="1619108310826">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-42/0.0.1280.639@0.0.1280.639" timestamp="1619108310826" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-43" timestamp="1619108310826">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-43/0.0.1280.639@0.0.1280.639" timestamp="1619108310826" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-44" timestamp="1619108310826">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-44/0.0.1280.639@0.0.1280.639" timestamp="1619108310826" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-45" timestamp="1619108310826">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-45/0.0.1280.639@0.0.1280.639" timestamp="1619108310826" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-46" timestamp="1619108310826">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-46/0.0.1280.639@0.0.1280.639" timestamp="1619108310826" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-47" timestamp="1619143621897">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-47/0.0.1280.639@0.0.1280.639" timestamp="1619143621897" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-48" timestamp="1619143621898">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-48/0.0.1280.639@0.0.1280.639" timestamp="1619143621898" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-49" timestamp="1619144150424">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-49/0.0.1280.639@0.0.1280.639" timestamp="1619144150424" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-5" timestamp="1619018428462">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-5/0.0.1280.639@0.0.1280.639" timestamp="1619018428462" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-50" timestamp="1618791770140">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-50/0.0.1280.639@0.0.1280.639" timestamp="1618791770140" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-51" timestamp="1618791770140">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-51/0.0.1280.639@0.0.1280.639" timestamp="1618791770140" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-52" timestamp="1618791770140">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-52/0.0.1280.639@0.0.1280.639" timestamp="1618791770140" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-53" timestamp="1618793380180">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-53/0.0.1280.639@0.0.1280.639" timestamp="1618793380180" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-54" timestamp="1618793380180">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-54/0.0.1280.639@0.0.1280.639" timestamp="1618793380180" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-55" timestamp="1618793380181">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-55/0.0.1280.639@0.0.1280.639" timestamp="1618793380181" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-56" timestamp="1618793380181">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-56/0.0.1280.639@0.0.1280.639" timestamp="1618793380181" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-57" timestamp="1618793380181">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-57/0.0.1280.639@0.0.1280.639" timestamp="1618793380181" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-58" timestamp="1618793380181">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-58/0.0.1280.639@0.0.1280.639" timestamp="1618793380181" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-59" timestamp="1618793380181">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-59/0.0.1280.639@0.0.1280.639" timestamp="1618793380181" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-6" timestamp="1619019552857">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-6/0.0.1280.639@0.0.1280.639" timestamp="1619019552857" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-60" timestamp="1618793380181">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-60/0.0.1280.639@0.0.1280.639" timestamp="1618793380181" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-61" timestamp="1618793716795">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-61/0.0.1280.639@0.0.1280.639" timestamp="1618793716795" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-62" timestamp="1618793716795">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-62/0.0.1280.639@0.0.1280.639" timestamp="1618793716795" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-63" timestamp="1618793716795">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-63/0.0.1280.639@0.0.1280.639" timestamp="1618793716795" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-64" timestamp="1618793964267">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-64/0.0.1280.639@0.0.1280.639" timestamp="1618793964267" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-65" timestamp="1618804798926">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-65/0.0.1280.639@0.0.1280.639" timestamp="1618804798926" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-66" timestamp="1618804798926">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-66/0.0.1280.639@0.0.1280.639" timestamp="1618804798926" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-67" timestamp="1618810038168">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-67/0.0.1280.639@0.0.1280.639" timestamp="1618810038168" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-68" timestamp="1618838350522">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-68/0.0.1280.639@0.0.1280.639" timestamp="1618838350522" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-69" timestamp="1618838350522">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-69/0.0.1280.639@0.0.1280.639" timestamp="1618838350522" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-7" timestamp="1619019552857">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-7/0.0.1280.639@0.0.1280.639" timestamp="1619019552857" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-70" timestamp="1618838350522">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-70/0.0.1280.639@0.0.1280.639" timestamp="1618838350522" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-71" timestamp="1618838350522">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-71/0.0.1280.639@0.0.1280.639" timestamp="1618838350522" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-72" timestamp="1618838350522">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-72/0.0.1280.639@0.0.1280.639" timestamp="1618838350522" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-73" timestamp="1618838350522">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-73/0.0.1280.639@0.0.1280.639" timestamp="1618838350522" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-74" timestamp="1618838350522">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-74/0.0.1280.639@0.0.1280.639" timestamp="1618838350522" />
+    <state x="12" y="426" width="282" height="236" key="dock-window-75" timestamp="1618838515922">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="426" width="282" height="236" key="dock-window-75/0.0.1280.639@0.0.1280.639" timestamp="1618838515922" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-76" timestamp="1618838515922">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-76/0.0.1280.639@0.0.1280.639" timestamp="1618838515922" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-77" timestamp="1618843017812">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-77/0.0.1280.639@0.0.1280.639" timestamp="1618843017812" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-78" timestamp="1618852955399">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-78/0.0.1280.639@0.0.1280.639" timestamp="1618852955399" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-8" timestamp="1619019552857">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-8/0.0.1280.639@0.0.1280.639" timestamp="1619019552857" />
+    <state x="12" y="425" width="282" height="236" key="dock-window-9" timestamp="1619020560866">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="12" y="425" width="282" height="236" key="dock-window-9/0.0.1280.639@0.0.1280.639" timestamp="1619020560866" />
+    <state x="310" y="115" width="672" height="678" key="search.everywhere.popup" timestamp="1612964208771">
+      <screen x="0" y="0" width="1280" height="639" />
+    </state>
+    <state x="310" y="115" width="672" height="678" key="search.everywhere.popup/0.0.1280.639@0.0.1280.639" timestamp="1612964208771" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/plotters/Old/csvPlotterRM3BaseIteration.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/DummySrc/pyserinitest.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/compare.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/readers/readSingleResFile.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/extractTopMAPValues.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/extractTopMAPValues.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/plotters/paper3/csvPlotterRevertedIndex.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/csvPlotterAdditionalAnalysis.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/plotRelevanceExposure.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters/csvPlotterRM3&amp;AxiomPaperVersion.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="440" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/plotRelevanceExposure.py</url>
+          <line>148</line>
+          <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator/CORE17Iterator.py</url>
+          <line>128</line>
+          <option name="timeStamp" value="502" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis/measureRetrievalExposure.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="528" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/src/DummySrc/test.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="533" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="g.__cls_storage" />
+        <watch expression="bashCmd" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/InformationRetrieval$dictuseRevertedIndex.coverage" NAME="dictuseRevertedIndex Coverage Results" MODIFIED="1612786071831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles" />
-    <SUITE FILE_PATH="coverage/InformationRetrieval$compare.coverage" NAME="compare Coverage Results" MODIFIED="1612785824365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRM3_Axiom.coverage" NAME="csvPlotterRM3&amp;Axiom Coverage Results" MODIFIED="1618843055896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/plotters" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$extractLines.coverage" NAME="extractLines Coverage Results" MODIFIED="1615335079414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$generateRetFile.coverage" NAME="generateRetFile Coverage Results" MODIFIED="1620080969654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$CORE17Iterator.coverage" NAME="CORE17Iterator Coverage Results" MODIFIED="1620533127788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRevertedIndex__1_.coverage" NAME="csvPlotterRevertedIndex (1) Coverage Results" MODIFIED="1619670335885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper3/plotters" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvAnalyzeDocumentBucketLength.coverage" NAME="csvAnalyzeDocumentBucketLength Coverage Results" MODIFIED="1619108175895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/plotters/paper2" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$compare.coverage" NAME="compare Coverage Results" MODIFIED="1617137333092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvAnalyzeDocumentBucketLength__1_.coverage" NAME="csvAnalyzeDocumentBucketLength (1) Coverage Results" MODIFIED="1619201521974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$processWAPOKicker.coverage" NAME="processWAPOKicker Coverage Results" MODIFIED="1619144478927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/WAPOScripts" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$AQUAINTIterator.coverage" NAME="AQUAINTIterator Coverage Results" MODIFIED="1620435018122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/Collection Iterator" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRM3SecondStage.coverage" NAME="csvPlotterRM3SecondStage Coverage Results" MODIFIED="1619931854899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$RelevanceExposure.coverage" NAME="RelevanceExposure Coverage Results" MODIFIED="1620082945336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$measureRetrievalExposure.coverage" NAME="measureRetrievalExposure Coverage Results" MODIFIED="1620640327009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$2nd.coverage" NAME="2nd Coverage Results" MODIFIED="1619956386642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvExtractTopMAPValues.coverage" NAME="csvExtractTopMAPValues Coverage Results" MODIFIED="1617848584980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/readers" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$readSingleResFile.coverage" NAME="readSingleResFile Coverage Results" MODIFIED="1618352937807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/readers" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRevertedIndex.coverage" NAME="csvPlotterRevertedIndex Coverage Results" MODIFIED="1619060130788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/plotters/paper3" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterMultipleIndexes.coverage" NAME="csvPlotterMultipleIndexes Coverage Results" MODIFIED="1612944061194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/plotters" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRM3BaseIteration.coverage" NAME="csvPlotterRM3BaseIteration Coverage Results" MODIFIED="1612964343041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/plotters/Old" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$test.coverage" NAME="test Coverage Results" MODIFIED="1620722167148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/DummySrc" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRM3FirstStage.coverage" NAME="csvPlotterRM3FirstStage Coverage Results" MODIFIED="1619931850277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$extractRFields.coverage" NAME="extractRFields Coverage Results" MODIFIED="1620805000620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$docidXMLCreator.coverage" NAME="docidXMLCreator Coverage Results" MODIFIED="1618943318148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterRM3_AxiomPaperVersion.coverage" NAME="csvPlotterRM3&amp;AxiomPaperVersion Coverage Results" MODIFIED="1620292879780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$RM3ExtractTopMAPValues.coverage" NAME="RM3ExtractTopMAPValues Coverage Results" MODIFIED="1618853403541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/ExtractTopValues" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$RelevanceExposure__1_.coverage" NAME="RelevanceExposure (1) Coverage Results" MODIFIED="1620005191397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/AdditionalAnalysis" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$AQUAINTIterator__1_.coverage" NAME="AQUAINTIterator (1) Coverage Results" MODIFIED="1620445408930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$renameExperiments.coverage" NAME="renameExperiments Coverage Results" MODIFIED="1618221762472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$simpleTasks.coverage" NAME="simpleTasks Coverage Results" MODIFIED="1620273026010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene/simpleTasks" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$dictuseRevertedIndex.coverage" NAME="dictuseRevertedIndex Coverage Results" MODIFIED="1619058728710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1620624038607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$collectionParser.coverage" NAME="collectionParser Coverage Results" MODIFIED="1615433511766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/revertedIndex/lucene" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$ptest.coverage" NAME="ptest Coverage Results" MODIFIED="1616160334342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/plotters" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$csvPlotterAdditionalAnalysis.coverage" NAME="csvPlotterAdditionalAnalysis Coverage Results" MODIFIED="1619733052123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/plotters" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$WAPOIterator.coverage" NAME="WAPOIterator Coverage Results" MODIFIED="1620365537474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/paper2/WAPOScripts" />
+    <SUITE FILE_PATH="coverage/InformationRetrieval$concatFiles.coverage" NAME="concatFiles Coverage Results" MODIFIED="1620799151131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src/pythonFiles/dedicatedProcess/CollectionIterator" />
   </component>
 </project>

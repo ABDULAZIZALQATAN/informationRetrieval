@@ -18,7 +18,6 @@ def getGainFile (line):
     result = switcher.get(c,'')
     return result
 
-
 def getTrecData (resFile , gainFile):
     # Given a path af trec File Return [map - BPref - P10 - NDCG]
     f = executeBash(resFile,gainFile)

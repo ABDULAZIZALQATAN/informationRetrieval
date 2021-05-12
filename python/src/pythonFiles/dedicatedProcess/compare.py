@@ -56,9 +56,10 @@ def compareWords(path1,path2):
           'Analyzed Version Of Same Query File: %d ' % c2)
 
 if __name__ == '__main__':
-    mainPath = r'C:\Users\kkb19103\Desktop\My Files 07-08-2019\LUCENE\anserini\revertedIndex'
+    mainPath = r'C:\Users\kkb19103\Desktop\My Files 07-08-2019\LUCENE\anserini\revertedIndex\prior\DFBigger02'
     # mainPath = r'C:\Users\kkb19103\Desktop\My Files 07-08-2019\BiasMeasurementExperiments\Resources\WAPO'
-    path2 = mainPath + r'\firstStage.res'
-    path1 = mainPath + r'\FirstStageNew.res'
+    path2 = mainPath + '\BaseScore.res'
+    path1 = mainPath + '\BaseScore500K.res'
     # compareWords(path1, path2)
-    compareFiles(path1,path2)
+    # compareFiles(path1,path2)
+    compareFiles(path2,path1)
